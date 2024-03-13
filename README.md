@@ -16,14 +16,14 @@
 - `git add <filename>`
 - `git commit -am`
 - `git checkout -- <filename>`: remove changes in file
+- `git commit --amend`
 
 ### vim editor:
-
-- `q!` abort, `qw` saves and exit
 
 ## stagging area (switch branches)
 
 - `git stash`
+- `git checkout -b newbranch`
 - `git stash pop`
 
 ## Authentication new way:
