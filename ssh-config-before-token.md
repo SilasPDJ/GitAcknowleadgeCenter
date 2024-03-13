@@ -21,7 +21,13 @@
   `ssh -T git@github.com`
 
 - add key to repository
+
   - `` eval `ssh-agent -s`  ``
   - `ssh-add ~/.ssh/name`
     - or
   - `ssh-add`
+
+### `git push`
+
+- remember to finish ssh configuration:
+  - `git branch --set-upstream-to git@github.com:User/your-repo.git`
