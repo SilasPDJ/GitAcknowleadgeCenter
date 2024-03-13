@@ -25,3 +25,7 @@
 
 - `git stash`
 - `git stash pop`
+
+## Authentication new way:
+
+- https://github.com/settings/ -> Developer Settings -> Personal access tokens
