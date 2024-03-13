@@ -31,3 +31,5 @@
 
 - remember to finish ssh configuration:
   - `git branch --set-upstream-to git@github.com:User/your-repo.git`
+
+`-u` = `--set-upstream-to`
