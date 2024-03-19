@@ -18,7 +18,16 @@
 - `git checkout -- <filename>`: remove changes in file
 - `git commit --amend`
 
-### vim editor:
+## reflog
+
+`git reflog HEAD@{2.days.ago}`
+`git reflog HEAD@10`
+`git checkout HEAD@3`
+
+#### Remove unreachable commits:
+
+- `git reflog expire --expire-unreachable=now --all`
+- `git gc --prune=now`
 
 ## stagging area (switch branches)
 
