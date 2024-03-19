@@ -29,6 +29,11 @@
 - `git reflog expire --expire-unreachable=now --all`
 - `git gc --prune=now`
 
+### Squash
+
+- `git push -u origin SquashingBranch`
+- `git fetch origin --prune` : After squashing / merging in repository
+
 ## stagging area (switch branches)
 
 - `git stash`
